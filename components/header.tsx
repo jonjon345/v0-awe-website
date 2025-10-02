@@ -42,8 +42,8 @@ export async function Header() {
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
-          <Link href="#platform" className="text-sm font-medium text-primary transition-colors hover:text-primary/80">
-            PLATFORM
+          <Link href="/" className="text-sm font-medium text-primary transition-colors hover:text-primary/80">
+            HOME
           </Link>
           <Link href="/solutions" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
             SOLUTIONS
@@ -57,7 +57,7 @@ export async function Header() {
           <Link href="/pricing" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
             PRICING
           </Link>
-          <Link href="#contact" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
+          <Link href="/contact" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
             CONTACT
           </Link>
         </nav>
